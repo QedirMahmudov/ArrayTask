@@ -59,6 +59,33 @@
 
 //4.Verilmish arrayda murekkeb ededleri ekrana çıxaran algorithm
 
+
+
+
+int[] nums = { 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24 };
+bool result = false;
+
+for (int i = 0; i < nums.Length; i++)
+{
+    for (int j = 2; j < nums[i]; j++)
+    {
+        if (nums[i] % j == 0)
+        {
+            result = true;
+            Console.WriteLine($"murekkeb{nums[i]}");
+            break;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
 //ALINMADI SABAH BAX!
 
 //int[] numbers = { 3, 4, 5, 6 };
@@ -141,24 +168,79 @@
 
 
 
-int[] numbers = { 5, 9, 12, 11 };
-int index = 0;
-int testNum = numbers[0];
-bool result = false;
-for (int i = 0; i < numbers.Length; i++)
-{
-    for (int j = 0; j < testNum; j++)
-    {
-        if (numbers[index] % 2 != 0)
-        {
-            result = true;
-            Console.WriteLine(numbers[i]);
-        }
-        else
-        {
-            Console.WriteLine("false");
-        }
+//int[] numbers = { 5, 9, 12, 11 };
+//int index = 0;
+//int testNum = numbers[0];
+//bool result = false;
+//for (int i = 0; i < numbers.Length; i++)
+//{
+//    for (int j = 0; j < testNum; j++)
+//    {
+//        if (numbers[index] % 2 != 0)
+//        {
+//            result = true;
+//            Console.WriteLine(numbers[i]);
+//        }
+//        else
+//        {
+//            Console.WriteLine("false");
+//        }
 
-    }
-}
+//    }
+//}
+
+
+
+
+
+
+
+
+//int[] nums = { 2, 6, 4, 1, 5 };
+//int index = 0;
+//int num = nums[0];
+//int dividedNumCount = 0;
+//int zeroDivided = 0;
+//for (int i = 0; i <= nums.Length; i++)
+//{
+//    if (nums[index] == 1)
+//    {
+//        Console.WriteLine("ne sadedir ne murekkeb");
+//        continue;
+//    }
+//    for (int j = 1; j <= num; j++)
+//    {
+//        if (num % j == 0)
+//        {
+//            dividedNumCount++;
+//        }
+//        if (dividedNumCount > 2)
+//        {
+//            Console.WriteLine($"murekkebdir,bolenlerin sayi:{num}");
+//        }
+//        else
+//        {
+//            Console.WriteLine("davam!");
+//        }
+//    }
+//    dividedNumCount = 0;
+//    if (num > nums[i])
+//    {
+//        num = nums[i];
+//    }
+//    Console.WriteLine(num);
+
+
+
+//    //Console.WriteLine(num);
+//}
+//Console.WriteLine(num);
+
+
+
+
+
+
+
+
 

@@ -12,3 +12,4 @@ C:\Users\ASUS\source\repos\ArrayTasks\obj\Debug\net8.0\refint\ArrayTasks.dll
 C:\Users\ASUS\source\repos\ArrayTasks\obj\Debug\net8.0\ArrayTasks.pdb
 C:\Users\ASUS\source\repos\ArrayTasks\obj\Debug\net8.0\ArrayTasks.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\ArrayTasks\obj\Debug\net8.0\ref\ArrayTasks.dll
+C:\Users\ASUS\source\repos\ArrayTasks\obj\Debug\net8.0\ArrayTasks.sourcelink.json
